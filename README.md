@@ -6,6 +6,7 @@ A new way for employers and employees to interact!
 - [User Manual](user-manual.md)
 - [Job Description](job-description.md)
 - [ScreenCast](https://drive.google.com/file/d/1Msj7G6YohDqgMR4DrNPGP8sRB5US-EWL/view?usp=drive_link)
+- [Project Page] (https://cmput401.ca/projects/ef43276a-aa85-4ab8-8359-50760dac8519)
 
 ## Languages Used
 
