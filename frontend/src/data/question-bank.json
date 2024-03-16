@@ -1,0 +1,398 @@
+{
+  "user": [
+    {
+      "level": "Call to adventure",
+      "questions": [
+        {
+          "question": "These are difficult times for some people. The water is dangerous and unpredictable. This ship is ready to sail and the mission needs you! Get ready!",
+          "img": {"src": "/ship.svg", "alt": "Call To Adventure"} ,
+          "answers": []
+        }
+      ]
+    },
+    {
+      "level": "Gearing up",
+      "questions": [
+        {
+          "question": "The ship has sailed, we need to know where on the ship you prefer to work... bow or stern.",
+   
+          "answers": [
+            {
+              "text": "I prefer working by myself, focusing on the task at hand",
+              "index": 1
+            },
+            {
+              "text": "I prefer focusing on building relationships with others",
+              "index": 2
+            }
+          ]
+        },
+        {
+          "question": "The ship has sailed, we need to know where on the ship you prefer to work... bow or stern. Which traits match your personality?",
+          "img": {"src": "", "alt": ""},
+          "answers": [
+            {
+              "text": "Active, Fast-paced, Dynamic",
+              "index": 1
+            },
+            {
+              "text": "Thoughtful, Moderate-paced, Calm",
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "Signing on a crew",
+      "questions": [
+        {
+          "question": "You prefer getting results by:",
+          "img": {"src": "", "alt": ""},
+          "answers": [
+            {
+              "text": "I love talking to people, getting results, and connecting/receiving feedback from people.",
+              "index": 1
+            },
+            {
+              "text": "I love listening to people, negotiating, and connecting/receiving feedback from people.",
+              "index": 2
+            },
+            {
+              "text": "I love solving problems and following up to get results.",
+              "index": 3
+            },
+            {
+              "text": "I love completing my work with quality and accuracy.",
+              "index": 4
+            },
+            {
+              "text": "I am systematic. I love planning and controlling long-term projects.",
+              "index": 5
+            },
+            {
+              "text": "I love creating something new, removing obstacles, breaking barriers, and facing resistance.",
+              "index": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "Through the glass",
+      "questions": [
+        {
+          "question": "It is time to see through the glass. Leader or partner ... What will you choose?",
+          "img": {"src": "", "alt": ""},
+          "answers": [
+            {
+              "text": "I always carry out my work with the support of my immediate boss. I prefer to receive constant review monitoring/follow-up of my progress.",
+              "index": 1
+            },
+            {
+              "text": "I love to be autonomous in my work, but not as a leader. I prefer that all my results depend only on me.",
+              "index": 2
+            },
+            {
+              "text": "I prefer to get results by leading a team.",
+              "index": 3
+            },
+            {
+              "text": "I want to be a leader to leaders",
+              "index": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "The dilemma",
+      "questions": [
+        {
+          "question": "Someone looted all the treasures you had in your possession, someone must go after the thief, but wait! Before you go, you have to know! The captain doesn't want you to go and no one else has come back alive!",
+          "img": {"src": "", "alt": ""},
+          "answers": [
+            {
+              "text": "I will go because I want to be the next captain!",
+              "index": 1
+            },
+            {
+              "text": "I will go because I want to be recognized and to impress my crew.",
+              "index": 2
+            },
+            {
+              "text": "I will go because I need help and care for the people around me.",
+              "index": 3
+            },
+            {
+              "text": "I will go because I am ambitious. I want to show how capable I am.",
+              "index": 4
+            },
+            {
+              "text": "I seek every chance I can to have fun. I am sure this is going to be fun. I deserve this adventure!",
+              "index": 5
+            },
+            {
+              "text": "I will go because our treasures could spread in the sea and contaminate the environment.",
+              "index": 6
+            },
+            {
+              "text": "I will not go because I have heard nobody who has gone has come back.",
+              "index": 7
+            },
+            {
+              "text": "I will not go because the captain disagrees. It would seem impolite or disrespectful.",
+              "index": 8
+            },
+            {
+              "text": "I will go! I am independent and make my own decisions about what I do. I like to be free to plan and to choose my activities for myself.",
+              "index": 9
+            },
+            {
+              "text": "I will go! I enjoy taking risks. I am always looking for adventures.",
+              "index": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "Coming for your gold",
+      "questions": [
+        {
+          "question": "What is your greatest fear as part of the crew?",
+          "img": {"src": "", "alt": ""},
+          "answers": [
+            {
+              "text": "Not receiving training and instructions on how to perform my duties. I don't like not knowing exactly the expectations of my job.",
+              "index": 1
+            },
+            {
+              "text": "Being assigned to a role that does not fit my talents and passions.",
+              "index": 2
+            },
+            {
+              "text": "Not receiving all the resources to do the work assigned to me.",
+              "index": 3
+            },
+            {
+              "text": "Not receiving better incentives, financial, or non-financial consequences for doing my work.",
+              "index": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "Last Battle",
+      "questions": [
+        {
+          "question": "You have arrived at a seaport, you only have one step left to end this adventure!... Getting off the boat you find a piece of paper inside a bottle... the note says",
+          "img": {"src": "", "alt": ""},
+          "answers": []
+        },
+        {
+          "goal": null,
+          "question": "This is your goal… regarding that goal…",
+          "img": {"src": "", "alt": ""},
+          "answers": []
+        },
+        {
+          "question": "Do you know how to achieve your goal?",
+          "img": {"src": "", "alt": ""},
+          "answers": [
+            { "text": "Yes", "index": 1 },
+            { "text": "No", "index": 2 }
+          ]
+        },
+        {
+          "question": "Have you done something similar before?",
+          "img": {"src": "", "alt": ""},
+          "answers": [
+            { "text": "Yes", "index": 1 },
+            { "text": "No", "index": 2 }
+          ]
+        },
+        {
+          "question": "How are you feeling about that project you haven't finished yet?",
+          "img": {"src": "", "alt": ""},
+          "answers": [
+            { "text": "Confident", "index": 1 },
+            { "text": "Hesitant", "index": 2 },
+            { "text": "Worried", "index": 3 },
+            { "text": "Nervous", "index": 4 }
+          ]
+        },
+        {
+          "question": "Do you need help/support from someone to achieve your goal?",
+          "img": {"src": "", "alt": ""},
+          "answers": [
+            { "text": "Yes", "index": 1 },
+            { "text": "No", "index": 2 }
+          ]
+        },
+        {
+          "goal": "Engagement",
+          "question": "The last time your leader talked about this objective with you. The talk was…",
+          "img": {"src": "", "alt": ""},
+          "answers": [
+            { "text": "TASK FOCUSED", "index": 1 },
+            { "text": "RELATIONSHIP FOCUSED", "index": 2 }
+          ]
+        }
+      ]
+    }
+  ],
+  "employees": [
+    {
+      "level": "Final Reflection",
+      "questions": [
+        {
+          "question": "What resources do I control at my company?",
+          "img": {"src": "", "alt": ""},
+          "answers": [
+            {"text": "1 - Few resources", "index": 1},
+            {"text": "2", "index": 2},
+            {"text": "3", "index": 3},
+            {"text": "4", "index": 4},
+            {"text": "5 - Many resources", "index": 5}
+          ]
+        },
+        {
+          "question": "What measures will be used to evaluate my performance at my company?",
+          "img": {"src": "", "alt": ""},
+          "answers": [
+            {"text": "1 - Measures allow few tradeoffs", "index": 1},
+            {"text": "2", "index": 2},
+            {"text": "3", "index": 3},
+            {"text": "4", "index": 4},
+            {"text": "5 - Measures allow many tradeoffs", "index": 5}
+          ]
+        },
+        {
+          "question": "Who do I need to interact with and influence to achieve my goals?",
+          "img": {"src": "", "alt": ""},
+          "answers": [
+            {"text": "1 - Interactions within unit", "index": 1},
+            {"text": "2", "index": 2},
+            {"text": "3", "index": 3},
+            {"text": "4", "index": 4},
+            {"text": "5 - Interaction across units", "index": 5}
+          ]
+        },
+        {
+          "question": "How much support can I expect when I reach out to others for help?",
+          "img": {"src": "", "alt": ""},
+          "answers": [
+            {"text": "1 - No commitment to help others", "index": 1},
+            {"text": "2", "index": 2},
+            {"text": "3", "index": 3},
+            {"text": "4", "index": 4},
+            {"text": "5 - Strong commitment to help others", "index": 5}
+          ]
+        }
+      ]
+    }
+  ], 
+  "managers": [
+    {
+      "level": "Final Reflection",
+      "questions": [
+        {
+          "question": "What resources do my employees control at my company?",
+          "img": {"src": "", "alt": ""},
+          "answers": [
+            {"text": "1 - Few resources", "index": 1},
+            {"text": "2", "index": 2},
+            {"text": "3", "index": 3},
+            {"text": "4", "index": 4},
+            {"text": "5 - Many resources", "index": 5}
+          ]
+        },
+        {
+          "question": "What measures will be used to evaluate employee performance at my company?",
+          "img": {"src": "", "alt": ""},
+          "answers": [
+            {"text": "1 - Measures allow few tradeoffs", "index": 1},
+            {"text": "2", "index": 2},
+            {"text": "3", "index": 3},
+            {"text": "4", "index": 4},
+            {"text": "5 - Measures allow many tradeoffs", "index": 5}
+          ]
+        },
+        {
+          "question": "Who do my employees need to interact with and influence to achieve their goals?",
+          "img": {"src": "", "alt": ""},
+          "answers": [
+            {"text": "1 - Interactions within unit", "index": 1},
+            {"text": "2", "index": 2},
+            {"text": "3", "index": 3},
+            {"text": "4", "index": 4},
+            {"text": "5 - Interaction across units", "index": 5}
+          ]
+        },
+        {
+          "question": "How much support can my employees expect when they reach out to others for help?",
+          "img": {"src": "", "alt": ""},
+          "answers": [
+            {"text": "1 - No commitment to help others", "index": 1},
+            {"text": "2", "index": 2},
+            {"text": "3", "index": 3},
+            {"text": "4", "index": 4},
+            {"text": "5 - Strong commitment to help others", "index": 5}
+          ]
+        }
+      ]
+    }
+  ],
+  "company": [
+    {
+      "level": "Organization Survey",
+      "questions": [
+        {
+          "question": "To get your business strategy, what do you need?",
+          "img": {"src": "", "alt": ""},
+          "answers": [
+            {"text": "I need to negotiate and react quickly to unique situations. I need to be good at managing conflicts and listening to others.", "index": 1},
+            {"text": "I need to communicate effectively and inspire people. I need political boldness.", "index": 2},
+            {"text": "I need to experiment by creating something new. I need to be a leader who drives change.", "index": 3},
+            {"text": "I need to get comfortable with complexity and ambiguity, finding solutions to difficult problems, and reading between the lines. I need to be open to criticism.", "index": 4},
+            {"text": "I need to create teams, remove obstacles, and break barriers. I need to be ready to face resistance.", "index": 5}
+          ]
+        },
+        {
+          "question": "Do the employees already know how to get to the first stage?",
+          "img": {"src": "", "alt": ""},
+          "answers": [
+            {"text": "Yes", "index": 1},
+            {"text": "No", "index": 2}
+          ]
+        },
+        {
+          "question": "Have the employees done something similar in the past?",
+          "img": {"src": "", "alt": ""},
+          "answers": [
+            {"text": "Yes", "index": 1},
+            {"text": "No", "index": 2}
+          ]
+        },
+        {
+          "question": "Are your employees excited to achieve the goal?",
+          "img": {"src": "", "alt": ""},
+          "answers": [
+            {"text": "Yes", "index": 1},
+            {"text": "No", "index": 2}
+          ]
+        },
+        {
+          "question": "Can your employees get results without support or help?",
+          "img": {"src": "", "alt": ""},
+          "answers": [
+            {"text": "Yes", "index": 1},
+            {"text": "No", "index": 2}
+          ]
+        }
+      ]
+    }
+  ]
+}

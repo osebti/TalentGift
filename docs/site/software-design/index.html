@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://ualberta-cmput401.github.io/f23project-talent-gift/software-design/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Software Design - Talent Gift</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Software Design";
+        var mkdocs_page_input_path = "software-design.md";
+        var mkdocs_page_url = "/f23project-talent-gift/software-design/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Talent Gift
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Project Requirements</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Software Design</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#architecture-diagram">Architecture Diagram</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#uml-class-diagram">UML Class Diagram</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#sequence-diagrams">Sequence Diagrams</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#low-fidelity-user-interface">Low-Fidelity User Interface</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#1-us-101xx-102xx-103xx">1/ US 1.01.xx, 1.02.xx, 1.03.xx</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#2-us-10601-us-10602">2/ US 1.06.01, US 1.06.02</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#3-us-20101-us-20102">3/ US 2.01.01, US 2.01.02</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#4-us-10501">4/ US 1.05.01</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#5-us-20601">5/ US 2.06.01</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#6-us-20301">6/ US 2.03.01</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#7-us-202xx-us-30101">7/ US 2.02.xx, US 3.01.01</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#8-us-20401">8/ US 2.04.01</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#9-us-20501">9/ US 2.05.01</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#10-us-30201">10/ US 3.02.01</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#11-us-10401">11/ US 1.04.01</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../project-management/">Project Management</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../teamwork/">Teamwork</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../meeting-minutes/">Meeting Minutes</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Talent Gift</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Software Design</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="software-design">Software Design</h1>
+<p>This page provides a concise overview of the system's architectural style, and its primary system components at a high level, along with their logical relationships (data exchange) and control interactions (how they trigger one another).</p>
+<h2 id="architecture-diagram">Architecture Diagram</h2>
+<p>This is a diagram showing the architecture of the app.</p>
+<p><a href="../img/Sprint2_Architecture_Diagram.png"><img alt="Architecture Diagram" src="../img/Sprint2_Architecture_Diagram.png" /></a></p>
+<h2 id="uml-class-diagram">UML Class Diagram</h2>
+<p>This is a UML diagram showing the logical structure of the domain.</p>
+<p><a href="../img/UML_Talent_Gift.png"><img alt="UML Class Diagram" src="../img/UML_Talent_Gift.png" /></a></p>
+<h2 id="sequence-diagrams">Sequence Diagrams</h2>
+<p>These sequence diagrams show how the app works in the most important scenarios.</p>
+<p><a href="../img/Talent_Gift_Sequence_Diagram_2.png"><img alt="Sequence Diagrams" src="../img/Talent_Gift_Sequence_Diagram_2.png" /></a></p>
+<h2 id="low-fidelity-user-interface">Low-Fidelity User Interface</h2>
+<p>These low-fidelity wireframes depict how the app will interact with the user overall. You may click on the images to see the mockup more clearly.</p>
+<h3 id="1-us-101xx-102xx-103xx">1/ US 1.01.xx, 1.02.xx, 1.03.xx</h3>
+<p><a href="../img/ui-mockup-1-solid.png"><img alt="Mockup 1" src="../img/ui-mockup-1-solid.png" /></a></p>
+<h3 id="2-us-10601-us-10602">2/ US 1.06.01, US 1.06.02</h3>
+<p><a href="../img/ui-mockup-2-solid.png"><img alt="Mockup 2" src="../img/ui-mockup-2-solid.png" /></a></p>
+<h3 id="3-us-20101-us-20102">3/ US 2.01.01, US 2.01.02</h3>
+<p><a href="../img/ui-mockup-3-solid.png"><img alt="Mockup 3" src="../img/ui-mockup-3-solid.png" /></a></p>
+<h3 id="4-us-10501">4/ US 1.05.01</h3>
+<p><a href="../img/ui-mockup-4-solid.png"><img alt="Mockup 4" src="../img/ui-mockup-4-solid.png" /></a></p>
+<h3 id="5-us-20601">5/ US 2.06.01</h3>
+<p><a href="../img/ui-mockup-11.png"><img alt="Mockup 11" src="../img/ui-mockup-11.png" /></a></p>
+<h3 id="6-us-20301">6/ US 2.03.01</h3>
+<p><a href="../img/ui-mockup-5-solid.png"><img alt="Mockup 5" src="../img/ui-mockup-5-solid.png" /></a></p>
+<h3 id="7-us-202xx-us-30101">7/ US 2.02.xx, US 3.01.01</h3>
+<p><a href="../img/ui-mockup-6-solid.png"><img alt="Mockup 6" src="../img/ui-mockup-6-solid.png" /></a></p>
+<h3 id="8-us-20401">8/ US 2.04.01</h3>
+<p><a href="../img/ui-mockup-7-solid.png"><img alt="Mockup 7" src="../img/ui-mockup-7-solid.png" /></a></p>
+<h3 id="9-us-20501">9/ US 2.05.01</h3>
+<p><a href="../img/ui-mockup-8-solid.png"><img alt="Mockup 8" src="../img/ui-mockup-8-solid.png" /></a></p>
+<h3 id="10-us-30201">10/ US 3.02.01</h3>
+<p><a href="../img/ui-mockup-9-solid.png"><img alt="Mockup 9" src="../img/ui-mockup-9-solid.png" /></a></p>
+<h3 id="11-us-10401">11/ US 1.04.01</h3>
+<p><a href="../img/ui-mockup-10.png"><img alt="Mockup 10" src="../img/ui-mockup-10.png" /></a></p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="Project Requirements"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../project-management/" class="btn btn-neutral float-right" title="Project Management">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../project-management/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

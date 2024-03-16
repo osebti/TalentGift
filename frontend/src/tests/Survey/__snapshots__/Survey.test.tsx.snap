@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Survey Rendering renders correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="w-full flex flex-col items-center gap-12 px-2 align-middle pb-8"
+      >
+        <div
+          class="self-end pr-2"
+        />
+        <div
+          class="flex justify-center"
+        >
+          <div
+            class="w-full flex flex-col gap-6 justify-center items-center"
+          >
+            <h1
+              class="text-2xl lg:text-4xl font-bold text-darkPurple"
+              data-testid="level-header-0"
+            >
+              Call to adventure
+            </h1>
+            <p
+              class="lg:max-w-[50%] max-w-[75%] text-center text-md lg:text-xl"
+              data-testid="question-description-0-0"
+            >
+              These are difficult times for some people. The water is dangerous and unpredictable. This ship is ready to sail and the mission needs you! Get ready!
+            </p>
+          </div>
+        </div>
+        <div
+          class="w-full flex flex-col justify-center items-center gap-12 px-2"
+        >
+          <ul
+            class="w-full flex flex-col justify-center items-center gap-4"
+            id="answerContainer"
+          />
+          <div
+            class="flex justify-center items-center gap-4 mb-6"
+          >
+            <button
+              class="btn btn-md rounded-full capitalize font-normal text-white text-sm md:text-base btn w-[8rem] bg-green px-12 hover:bg-darkGreen transition"
+              data-testid="next-button"
+              id="next-button"
+            >
+              next
+            </button>
+          </div>
+        </div>
+        <img
+          alt="Call To Adventure"
+          class="mt-12 w-40% sm:max-w-[32rem] md:w-30% lg:w-20% object-contain"
+          data-testid="question-image-0-0"
+          src="/ship.svg"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="w-full flex flex-col items-center gap-12 px-2 align-middle pb-8"
+    >
+      <div
+        class="self-end pr-2"
+      />
+      <div
+        class="flex justify-center"
+      >
+        <div
+          class="w-full flex flex-col gap-6 justify-center items-center"
+        >
+          <h1
+            class="text-2xl lg:text-4xl font-bold text-darkPurple"
+            data-testid="level-header-0"
+          >
+            Call to adventure
+          </h1>
+          <p
+            class="lg:max-w-[50%] max-w-[75%] text-center text-md lg:text-xl"
+            data-testid="question-description-0-0"
+          >
+            These are difficult times for some people. The water is dangerous and unpredictable. This ship is ready to sail and the mission needs you! Get ready!
+          </p>
+        </div>
+      </div>
+      <div
+        class="w-full flex flex-col justify-center items-center gap-12 px-2"
+      >
+        <ul
+          class="w-full flex flex-col justify-center items-center gap-4"
+          id="answerContainer"
+        />
+        <div
+          class="flex justify-center items-center gap-4 mb-6"
+        >
+          <button
+            class="btn btn-md rounded-full capitalize font-normal text-white text-sm md:text-base btn w-[8rem] bg-green px-12 hover:bg-darkGreen transition"
+            data-testid="next-button"
+            id="next-button"
+          >
+            next
+          </button>
+        </div>
+      </div>
+      <img
+        alt="Call To Adventure"
+        class="mt-12 w-40% sm:max-w-[32rem] md:w-30% lg:w-20% object-contain"
+        data-testid="question-image-0-0"
+        src="/ship.svg"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="None" /><link rel="canonical" href="https://ualberta-cmput401.github.io/f23project-talent-gift/" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Talent Gift</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Project Requirements";
+        var mkdocs_page_input_path = "index.md";
+        var mkdocs_page_url = "/f23project-talent-gift/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="." class="icon icon-home"> Talent Gift
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href=".">Project Requirements</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#executive-summary">Executive Summary</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#project-glossary">Project Glossary</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#user-stories">User Stories</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#us-10101-user-sign-up-with-email">US 1.01.01 - User - Sign Up with Email</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#us-10102-user-verified-account">US 1.01.02 - User - Verified Account</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#us-10201-user-sign-in-with-email">US 1.02.01 - User - Sign In with Email</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#us-10202-user-sign-in-with-google">US 1.02.02 - User - Sign In with Google</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#us-10301-user-reset-password">US 1.03.01 - User - Reset Password</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#us-10401-user-view-website-information">US 1.04.01 - User - View Website Information</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#us-10501-user-create-organization">US 1.05.01 - User - Create Organization</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#us-10601-user-view-profile">US 1.06.01 - User - View Profile</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#us-10602-user-modify-information">US 1.06.02 - User - Modify Information</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#us-20101-manager-add-members">US 2.01.01 - Manager - Add Members</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#us-20102-manager-delete-members">US 2.01.02 - Manager - Delete Members</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#us-20201-manager-add-survey-question">US 2.02.01 - Manager - Add Survey Question</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#us-20202-manager-edit-survey-question">US 2.02.02 - Manager - Edit Survey Question</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#us-20203-manager-delete-survey-question">US 2.02.03 - Manager - Delete Survey Question</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#us-20204-manager-set-survey-visibility">US 2.02.04 - Manager - Set Survey Visibility</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#us-20205-manager-set-survey-notification">US 2.02.05 - Manager - Set Survey Notification</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#us-20301-manager-view-organization-report">US 2.03.01 - Manager - View Organization Report</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#us-20401-manager-view-employee-report">US 2.04.01 - Manager - View Employee Report</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#us-20501-manager-view-manager-report">US 2.05.01 - Manager - View Manager Report</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#us-20601-manager-delete-an-organization">US 2.06.01 - Manager - Delete an Organization</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#us-30101-employee-one-time-link-survey">US 3.01.01 - Employee - One-time Link Survey</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#us-30201-employee-view-individual-survey-report">US 3.02.01 - Employee - View Individual Survey Report</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#us-40101-user-take-a-survey">US 4.01.01 - User - Take a Survey</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#us-40201-user-export-report-to-pdf">US 4.02.01 - User - Export Report to PDF</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#moscow">MoSCoW</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#must-have">Must Have</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#should-have">Should Have</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#could-have">Could Have</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#would-like-but-wont-get">Would Like But Won't Get</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#similar-products">Similar Products</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#lattice">Lattice</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#clarity-wave">Clarity Wave</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#open-source-projects">Open-source Projects</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#frappe-hr">Frappe HR</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#technical-resources">Technical Resources</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#backend-nodejs-express-postgresql">Backend: Node.js + Express + PostgreSQL</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#frontend-react-tailwind-typescript-daisy-ui">Frontend: React + Tailwind + Typescript + Daisy UI</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#deployment-cybera">Deployment: Cybera</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="software-design/">Software Design</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="project-management/">Project Management</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="teamwork/">Teamwork</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="meeting-minutes/">Meeting Minutes</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href=".">Talent Gift</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Project Requirements</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="project-requirements">Project Requirements</h1>
+<h2 id="executive-summary">Executive Summary</h2>
+<p>Our project is geared towards the need to promote a supportive and collaborative atmosphere within organizations. In particular, we want to create a web application that facilitates stronger connections between managers, employees, and the organization as a whole by offering a wide range of user-friendly surveys that generate insightful statistical reports. These surveys serve as a guideline for both managers and employees in identifying their own strengths and weaknesses as well as enable managers to have a better understanding of their own crews. This will eventually lead to an improved workplace dynamic and productivity across the whole organization.</p>
+<h2 id="project-glossary">Project Glossary</h2>
+<ul>
+<li>
+<p><strong>Company GAP</strong> - A weighted percentage score representing how well a company is utilizing their employees.</p>
+</li>
+<li>
+<p><strong>Competency</strong> - An employee or manager's strengths and weaknesses (measured through surveys).</p>
+</li>
+<li>
+<p><strong>Employee</strong> - A subordinate who can take surveys and view reports to gauge how well they fit with an organization. Each employee has a unique ID.</p>
+</li>
+<li>
+<p><strong>Goal</strong> - A desired result that employees and managers are looking to achieve (measured through surveys).</p>
+</li>
+<li>
+<p><strong>Manager</strong> - A business leader who can take surveys and view both company reports and employee reports to determine how the company can improve. Each manager has a unique ID.</p>
+</li>
+<li>
+<p><strong>Organization</strong> - A group of employees and managers who work for the same company.</p>
+</li>
+<li>
+<p><strong>Report</strong> - A summary generated based on an employee or manager's survey responses. A report includes company GAP, a venn diagram (goals/values/competencies), and insights about an employee/manager's work style.</p>
+</li>
+<li>
+<p><strong>Survey</strong> - A set of questions and answers used to retrieve data from users. This data is used to generate reports after a survey is submitted.</p>
+</li>
+<li>
+<p><strong>Value</strong> - Motivation behind an employee or manager's actions (measured through surveys).</p>
+</li>
+</ul>
+<h2 id="user-stories">User Stories</h2>
+<h3 id="us-10101-user-sign-up-with-email">US 1.01.01 - User - Sign Up with Email</h3>
+<blockquote>
+<p><strong>As</strong> a User, <strong>I want</strong> to register an account with the app, <strong>so that</strong> I can access the app's functionalities.</p>
+<p><strong>Acceptance Tests</strong></p>
+<ol>
+<li>The user should provide a valid and unique email</li>
+<li>The user's account is successfully created (there is a record in the database)</li>
+</ol>
+</blockquote>
+<h3 id="us-10102-user-verified-account">US 1.01.02 - User - Verified Account</h3>
+<blockquote>
+<p><strong>As</strong> a User, <strong>I want</strong> to have a verification code sent to my email as a confirmation while signing up, <strong>so that</strong> I can ensure the email address is correct.</p>
+<p><strong>Acceptance Tests</strong></p>
+<ol>
+<li>The user receives the verification code and a confirmation link via email</li>
+</ol>
+</blockquote>
+<h3 id="us-10201-user-sign-in-with-email">US 1.02.01 - User - Sign In with Email</h3>
+<blockquote>
+<p><strong>As</strong> a User, <strong>I want</strong> to sign in with my email and password <strong>so that</strong> I can access the app's functionalities.</p>
+<p><strong>Acceptance Tests</strong></p>
+<ol>
+<li>The user can successfully log in using their valid email and correct password</li>
+<li>Access is denied if the user enters an invalid email or password (non-existent or incorrect)</li>
+</ol>
+</blockquote>
+<h3 id="us-10202-user-sign-in-with-google">US 1.02.02 - User - Sign In with Google</h3>
+<blockquote>
+<p><strong>As</strong> a User, <strong>I want</strong> to sign in with my Google account, <strong>so that</strong> I can access the app's functionalities quickly and conveniently.</p>
+<p><strong>Acceptance Tests</strong></p>
+<ol>
+<li>The user can access the sign-in page before signing in</li>
+<li>The user can successfully sign in using their valid Google account</li>
+</ol>
+</blockquote>
+<h3 id="us-10301-user-reset-password">US 1.03.01 - User - Reset Password</h3>
+<blockquote>
+<p><strong>As</strong> a User, <strong>I want</strong> to be able to reset my password, <strong>so that</strong> I can regain access to my account if I forget my password.</p>
+<p><strong>Acceptance Tests</strong></p>
+<ol>
+<li>The User can access the password reset functionality without signing in</li>
+<li>A verification is sent to the valid email address</li>
+<li>User is prompted to set a new password if they complete the verification process</li>
+</ol>
+</blockquote>
+<h3 id="us-10401-user-view-website-information">US 1.04.01 - User - View Website Information</h3>
+<blockquote>
+<p><strong>As</strong> a User, <strong>I want</strong> to be able to access information about the website, including the details about the statistical methods used and the website's goals, <strong>so that</strong> I can understand how I can use the app.</p>
+<p><strong>Acceptance Tests</strong></p>
+<ol>
+<li>The information on the website is correctly displayed</li>
+<li>The user can access this page without signing in</li>
+</ol>
+</blockquote>
+<h3 id="us-10501-user-create-organization">US 1.05.01 - User - Create Organization</h3>
+<blockquote>
+<p><strong>As</strong> a User, <strong>I want</strong> to create an organization on the website, <strong>so that</strong> I can add my company to the website.</p>
+<p><strong>Acceptance Tests</strong></p>
+<ol>
+<li>The user can access the functionality to add an organization</li>
+<li>The User is prompted to enter the organization name and a valid organization contact email</li>
+<li>The organization and default entities associated with it (i.e. base survey) are successfully created</li>
+</ol>
+</blockquote>
+<h3 id="us-10601-user-view-profile">US 1.06.01 - User - View Profile</h3>
+<blockquote>
+<p><strong>As</strong> a User, <strong>I want</strong> to be able to see my profile, <strong>so that</strong> I can see and verify my personal information, including name, email and password.</p>
+<p><strong>Acceptance Tests</strong></p>
+<ol>
+<li>User is able to access a page displaying their profile information after signing in</li>
+<li>The information is displayed correctly</li>
+</ol>
+</blockquote>
+<h3 id="us-10602-user-modify-information">US 1.06.02 - User - Modify Information</h3>
+<blockquote>
+<p><strong>As</strong> a User, <strong>I want</strong> to modify my name and my password, <strong>so that</strong> I fix any mistakes if they happen.</p>
+<p><strong>Acceptance Tests</strong></p>
+<ol>
+<li>The user can modify the name and password</li>
+<li>The name can only be changed once every three months</li>
+<li>Notify managers when one employee's name is changed</li>
+<li>Changing the password redirects to the resetting password page</li>
+</ol>
+</blockquote>
+<h3 id="us-20101-manager-add-members">US 2.01.01 - Manager - Add Members</h3>
+<blockquote>
+<p><strong>As</strong> a Manager, <strong>I want</strong> to add other users to be a member of my organization, <strong>so that</strong> I can connect to and understand the employees I manage through the app.</p>
+<p><strong>Acceptance Tests</strong></p>
+<ol>
+<li>The manager can search for the employee by entering the employee's email</li>
+<li>The member is added to the organization as an Employee</li>
+</ol>
+</blockquote>
+<h3 id="us-20102-manager-delete-members">US 2.01.02 - Manager - Delete Members</h3>
+<blockquote>
+<p><strong>As</strong> a Manager, <strong>I want</strong> to delete a member from my organization, <strong>so that</strong> I can prevent them from accessing the organizations'surveys.</p>
+<p><strong>Acceptance Tests</strong></p>
+<ol>
+<li>The manager can see a list of employees within the organization</li>
+<li>The manager can successfully delete an employee from the organization</li>
+<li>The deleted member can no longer access the organization's data and surveys</li>
+</ol>
+</blockquote>
+<h3 id="us-20201-manager-add-survey-question">US 2.02.01 - Manager - Add Survey Question</h3>
+<blockquote>
+<p><strong>As</strong> a Manager, <strong>I want</strong> to add a question to the survey of my organization, <strong>so that</strong> I can get more survey data.</p>
+<p><strong>Acceptance Tests</strong></p>
+<ol>
+<li>The manager can add a question to the survey</li>
+<li>The manager can assign different weights for different answers to a question</li>
+<li>Users can see the new question in the survey after the manager submits the changes</li>
+</ol>
+</blockquote>
+<h3 id="us-20202-manager-edit-survey-question">US 2.02.02 - Manager - Edit Survey Question</h3>
+<blockquote>
+<p><strong>As</strong> a Manager, <strong>I want</strong> to edit a survey question of the organization I created, <strong>so that</strong> I can tailor the survey to my needs.</p>
+<p><strong>Acceptance Tests</strong></p>
+<ol>
+<li>The manager can select an existing question to edit</li>
+<li>The manager can edit the question, its answers, and its weight</li>
+<li>Users can see the updated question in the survey after the manager submits the changes</li>
+</ol>
+</blockquote>
+<h3 id="us-20203-manager-delete-survey-question">US 2.02.03 - Manager - Delete Survey Question</h3>
+<blockquote>
+<p><strong>As</strong> a Manager, <strong>I want</strong> to delete a survey question of the organization I created, <strong>so that</strong> I can get rid of unnecessary survey data.</p>
+<p><strong>Acceptance Tests</strong></p>
+<ol>
+<li>The manager can select an existing question to delete</li>
+<li>The question no longer exists after the manager submits the changes</li>
+<li>No data for the question is recorded</li>
+</ol>
+</blockquote>
+<h3 id="us-20204-manager-set-survey-visibility">US 2.02.04 - Manager - Set Survey Visibility</h3>
+<blockquote>
+<p><strong>As</strong> a Manager, <strong>I want</strong> to set the survey visibility <strong>so that</strong> I can control which survey reports are available for my employees.</p>
+<p><strong>Acceptance Tests</strong></p>
+<ol>
+<li>The survey visibility only works with the managers</li>
+<li>The manager can successfully set the survey visibility</li>
+<li>The employees can see the survey report only if the manager sets it visible</li>
+</ol>
+</blockquote>
+<h3 id="us-20205-manager-set-survey-notification">US 2.02.05 - Manager - Set Survey Notification</h3>
+<blockquote>
+<p><strong>As</strong> a Manager, <strong>I want</strong> to set the survey notification <strong>so that</strong> I can notify my employees when the survey is updated.</p>
+<p><strong>Acceptance Tests</strong></p>
+<ol>
+<li>The manager can successfully set the survey notification</li>
+<li>Each employee receives a notification email of the survey along with the shared link</li>
+</ol>
+</blockquote>
+<h3 id="us-20301-manager-view-organization-report">US 2.03.01 - Manager - View Organization Report</h3>
+<blockquote>
+<p><strong>As</strong> a Manager, <strong>I want</strong> to view the organization's report <strong>so that</strong> I get to know the statistics of the company.</p>
+<p><strong>Acceptance Tests</strong></p>
+<ol>
+<li>The manager can access the organization's overview page</li>
+<li>The manager can see different types of graphs that are drawn from the data collected from all the past surveys</li>
+</ol>
+</blockquote>
+<h3 id="us-20401-manager-view-employee-report">US 2.04.01 - Manager - View Employee Report</h3>
+<blockquote>
+<p><strong>As</strong> a Manager, <strong>I want</strong> to be able to see the profiles of my employees, <strong>so that</strong> I can understand how they are doing in the organization.</p>
+<p><strong>Acceptance Tests</strong></p>
+<ol>
+<li>The manager can access the profile pages of their employees</li>
+<li>The manager can see a list of their employees</li>
+<li>Selecting an employee brings up the corresponding employee's profile</li>
+<li>The manager can see different types of graphs that are drawn from the data collected from all the past surveys taken by one employee</li>
+</ol>
+</blockquote>
+<h3 id="us-20501-manager-view-manager-report">US 2.05.01 - Manager - View Manager Report</h3>
+<blockquote>
+<p><strong>As</strong> a Manager, <strong>I want</strong> to see a personalized report of a survey, <strong>so that</strong> I can receive alerts about my employees while monitoring my own performance at the organization</p>
+<p><strong>Acceptance Tests</strong></p>
+<ol>
+<li>The manager can see a personalized report generated from their survey responses</li>
+<li>The manager can see alerts about their employees</li>
+</ol>
+</blockquote>
+<h3 id="us-20601-manager-delete-an-organization">US 2.06.01 - Manager - Delete an Organization</h3>
+<blockquote>
+<p><strong>As</strong> a Manager, <strong>I want</strong> to be able to delete an organization I've created, <strong>so that</strong> I can get rid of the organization from my account.</p>
+<p><strong>Acceptance Tests</strong></p>
+<ol>
+<li>The organization is deleted from the site if the Manager confirms (delete from database)</li>
+</ol>
+</blockquote>
+<h3 id="us-30101-employee-one-time-link-survey">US 3.01.01 - Employee - One-time Link Survey</h3>
+<blockquote>
+<p><strong>As</strong> an Employee, <strong>I want</strong> to be able to take a survey via a one-time survey link, <strong>so that</strong> I can get or give feedback on performance.</p>
+<p><strong>Acceptance Tests</strong></p>
+<ol>
+<li>The employee can click the link to access a corresponding survey</li>
+<li>The employee cannot redo the survey once the answer is submitted</li>
+</ol>
+</blockquote>
+<h3 id="us-30201-employee-view-individual-survey-report">US 3.02.01 - Employee - View Individual Survey Report</h3>
+<blockquote>
+<p><strong>As</strong> a User, <strong>I want</strong> to see reports that I am eligible to view, <strong>so that</strong> I can be informed of company progress.</p>
+<p><strong>Acceptance Tests</strong></p>
+<ol>
+<li>The user is able to access only the set of reports that they are eligible to see</li>
+<li>The user can select a report to see more information corresponding to the report</li>
+</ol>
+</blockquote>
+<h3 id="us-40101-user-take-a-survey">US 4.01.01 - User - Take a Survey</h3>
+<blockquote>
+<p><strong>As</strong> a User, <strong>I want</strong> to be able to take a survey, <strong>so that</strong> my answers can get feedback on my performance.</p>
+<p><strong>Acceptance Tests</strong></p>
+<ol>
+<li>The user/manager can access a survey that allows them to get or give feedback</li>
+<li>The user/manager can successfully take and submit an answer to the survey</li>
+<li>Statistics generated from the survey data are updated</li>
+</ol>
+</blockquote>
+<h3 id="us-40201-user-export-report-to-pdf">US 4.02.01 - User - Export Report to PDF</h3>
+<blockquote>
+<p><strong>As</strong> a User, <strong>I want</strong> to be able to export my report to a PDF file, <strong>so that</strong> I can easily share my report with others</p>
+<p><strong>Acceptance Tests</strong></p>
+<ol>
+<li>The user can export a report to a PDF file after they take a survey</li>
+<li>The user cannot export a report if they haven't taken a survey yet</li>
+<li>The exported PDF file is downloaded to the user's device</li>
+</ol>
+</blockquote>
+<h2 id="moscow">MoSCoW</h2>
+<h3 id="must-have">Must Have</h3>
+<ul>
+<li>US 1.01.01 - (User - Sign Up with Email)</li>
+<li>US 1.02.01 - (User - Sign In with Email)</li>
+<li>US 1.05.01 - (User - Create Organization)</li>
+<li>US 2.01.01 - (Manager - Add Members)</li>
+<li>US 2.01.02 - (Manager - Delete Members)</li>
+<li>US 2.02.05 - (Manager - Set Survey Visibility)</li>
+<li>US 2.03.01 - (Manager - View Organization Report)</li>
+<li>US 2.04.01 - (Manager - View Employee Report)</li>
+<li>US 2.05.01 - (Manager - View Manager Report)</li>
+<li>US 2.06.01 - (Manager - Delete an Organization)</li>
+<li>US 3.02.01 - (Employee - View Individual Survey Report)</li>
+<li>US 4.01.01 - (User - Take a Survey)</li>
+</ul>
+<h3 id="should-have">Should Have</h3>
+<ul>
+<li>US 1.04.01 - (User - View Website Information)</li>
+<li>US 1.06.01 - (User - View Profile)</li>
+<li>US 3.01.01 - (Employee - One-time Link Survey)</li>
+<li>US 4.02.01 - (User - Export Report to PDF)</li>
+</ul>
+<h3 id="could-have">Could Have</h3>
+<ul>
+<li>US 1.03.01 - (User - Reset Password)</li>
+<li>US 1.06.02 - (User - Modify Information)</li>
+<li>US 2.02.06 - (Manager - Set Survey Notification)</li>
+</ul>
+<h3 id="would-like-but-wont-get">Would Like But Won't Get</h3>
+<ul>
+<li>US 1.01.02 - (User - Verified Account)</li>
+<li>US 1.02.02 - (User - Sign In with Google)</li>
+<li>US 2.02.01 - (Manager - Add Survey Question)</li>
+<li>US 2.02.02 - (Manager - Edit Survey Question)</li>
+<li>US 2.02.03 - (Manager - Delete Survey Question)</li>
+</ul>
+<h2 id="similar-products">Similar Products</h2>
+<h3 id="lattice"><a href="https://lattice.com/">Lattice</a></h3>
+<ul>
+<li>A Human Resource software that promotes growth and performance</li>
+<li>Analytical Report - The platform contains a lot of analytical tools and graphs to help managers gain insights into the performance of their employees</li>
+<li>Performance Feedback - The platform facilitates regular evaluations, providing an iterative process of skill development</li>
+</ul>
+<h3 id="clarity-wave"><a href="https://www.claritywave.com/">Clarity Wave</a></h3>
+<ul>
+<li>A human resource software that helps connect people within an organization</li>
+<li>Survey Utilization - The platform employs surveys to gather feedback from employees, enabling managers to gain a deeper understanding of their teams</li>
+</ul>
+<h2 id="open-source-projects">Open-source Projects</h2>
+<h3 id="frappe-hr"><a href="https://github.com/frappe/hrms">Frappe HR</a></h3>
+<ul>
+<li>A human resource website designed to administrate employees</li>
+<li>Attendance Administration - The platform simplifies attendance tracking and makes it more convenient for employees to log their contributions</li>
+</ul>
+<h2 id="technical-resources">Technical Resources</h2>
+<h3 id="backend-nodejs-express-postgresql">Backend: Node.js + Express + PostgreSQL</h3>
+<ul>
+<li><a href="https://nodejs.org/en/docs">Node.js Documentation</a></li>
+<li><a href="https://www.postgresql.org/docs/">PostgreSQL Documentation</a></li>
+<li><a href="https://expressjs.com/en/guide/routing.html">Express Documentation</a></li>
+</ul>
+<h3 id="frontend-react-tailwind-typescript-daisy-ui">Frontend: React + Tailwind + Typescript + Daisy UI</h3>
+<ul>
+<li><a href="https://www.typescriptlang.org/docs/">Typescript Documentation</a></li>
+<li><a href="https://react.dev/learn">React Documentation</a></li>
+<li><a href="https://tailwindcss.com/docs/installation">Tailwind Documentation</a></li>
+<li><a href="https://daisyui.com/">Daisy UI Documentation</a></li>
+</ul>
+<h3 id="deployment-cybera">Deployment: Cybera</h3>
+<ul>
+<li><a href="https://wiki.cybera.ca/display/RAC/Rapid+Access+Cloud+Guide%3A+Part+1#RapidAccessCloudGuide:Part1-Overview">Cybera Rapid Cloud Access Guide</a></li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="software-design/" class="btn btn-neutral float-right" title="Software Design">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+      <span><a href="software-design/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = ".";</script>
+    <script src="js/theme_extra.js"></script>
+    <script src="js/theme.js"></script>
+      <script src="search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
+
+<!--
+MkDocs version : 1.5.3
+Build Date UTC : 2023-11-19 01:17:05.409663+00:00
+-->

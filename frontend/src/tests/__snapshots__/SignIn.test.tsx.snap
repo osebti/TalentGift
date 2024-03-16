@@ -1,0 +1,370 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering the SignIn Page renders correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="px-4 md:px-8 h-screen flex flex-col"
+      >
+        <div
+          class="mt-4 lg:col-span-2 flex justify-between items-center"
+        >
+          <a
+            class="font-[1000] text-darkPurple text-3xl bg-transparent border-0"
+            href="/"
+          >
+            TG
+          </a>
+          <div
+            class="gap-x-4 hidden"
+          >
+            <a
+              class="btn btn-md rounded-full capitalize font-normal text-white text-sm md:text-base btn-accent btn-sm md:btn-md px-4 md:px-8"
+              data-testid="Sign In-button"
+              href="/sign-in"
+              id="Sign In-button"
+            >
+              Sign In
+            </a>
+            <a
+              class="btn btn-md rounded-full capitalize font-normal text-white text-sm md:text-base btn-primary btn-sm md:btn-md px-4 md:px-8"
+              data-testid="Sign Up-button"
+              href="/sign-up"
+              id="Sign Up-button"
+            >
+              Sign Up
+            </a>
+          </div>
+        </div>
+        <div
+          class="flex-grow grid lg:grid-cols-2 place-items-center gap-x-32"
+        >
+          <div
+            class="flex flex-row flex-wrap justify-center items-center col-start-1"
+            id="sign container"
+          >
+            <div
+              class="flex flex-col justify-center items-center gap-4 md:gap-8"
+              id="sign content container"
+            >
+              <p
+                class="text-4xl md:text-6xl font-bold text-center whitespace-nowrap"
+                id="sign content header"
+              >
+                Welcome Back!
+              </p>
+              <p
+                class="text-lg text-center"
+                id="sign content text"
+              >
+                Unite to foster an environment where creativity, collaboration, and mutual respect flourish
+              </p>
+              <div
+                class="w-full"
+              >
+                <div
+                  class="flex-col justify-start items-start w-full"
+                  id="Email-container"
+                >
+                  <div
+                    class="text-start text-black text-xl font-normal pb-2"
+                    data-testid="Email header"
+                    id="Email-header"
+                  >
+                    Email
+                  </div>
+                  <input
+                    class="text-black input outline outline-gray-300 text-xl font-normal bg-transparent w-full px-3 py-2.5 rounded-md justify-start items-center inline-flex focus:outline-darkPurple"
+                    data-testid="Email textbox"
+                    id="Email-textbox"
+                    placeholder="Enter your email"
+                    type="email"
+                  />
+                </div>
+              </div>
+              <div
+                class="w-full"
+              >
+                <div
+                  class="flex-col justify-start items-start w-full"
+                  id="Password-container"
+                >
+                  <div
+                    class="text-start text-black text-xl font-normal pb-2"
+                    data-testid="Password header"
+                    id="Password-header"
+                  >
+                    Password
+                  </div>
+                  <input
+                    class="text-black input outline outline-gray-300 text-xl font-normal bg-transparent w-full px-3 py-2.5 rounded-md justify-start items-center inline-flex focus:outline-darkPurple"
+                    data-testid="Password textbox"
+                    id="Password-textbox"
+                    placeholder="Enter your password"
+                    type="password"
+                  />
+                </div>
+              </div>
+              <div
+                class="w-full flex flex-row justify-end items-center"
+                id="sign remember forgot container"
+              >
+                <a
+                  class="text-lg hover:text-primary transition-all ease-in duration-250"
+                  href="/ConfirmEmail"
+                  id="sign forgot text"
+                >
+                  Forgot password?
+                </a>
+              </div>
+              <button
+                class="btn btn-md rounded-full capitalize font-normal text-white text-sm md:text-base btn-secondary w-full"
+                data-testid="Sign in-button"
+                id="Sign in-button"
+              >
+                Sign in
+              </button>
+              <span
+                class="flex align-middle justify-center"
+                id="sign signup container"
+              >
+                <a
+                  class="text-lg justify-self-end"
+                  href="/sign-up"
+                  id="signSwap text"
+                >
+                  Don't have an account?
+                </a>
+                <a
+                  class="text-lg font-bold pl-2"
+                  href="/sign-up"
+                  id="signSwap button"
+                >
+                  Sign Up
+                </a>
+              </span>
+            </div>
+          </div>
+          <div
+            class="h-full col-start-2 hidden lg:flex"
+          >
+            <img
+              alt="Sign Up Illustration"
+              class="object-contain"
+              src="sign_in_up.svg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="px-4 md:px-8 h-screen flex flex-col"
+    >
+      <div
+        class="mt-4 lg:col-span-2 flex justify-between items-center"
+      >
+        <a
+          class="font-[1000] text-darkPurple text-3xl bg-transparent border-0"
+          href="/"
+        >
+          TG
+        </a>
+        <div
+          class="gap-x-4 hidden"
+        >
+          <a
+            class="btn btn-md rounded-full capitalize font-normal text-white text-sm md:text-base btn-accent btn-sm md:btn-md px-4 md:px-8"
+            data-testid="Sign In-button"
+            href="/sign-in"
+            id="Sign In-button"
+          >
+            Sign In
+          </a>
+          <a
+            class="btn btn-md rounded-full capitalize font-normal text-white text-sm md:text-base btn-primary btn-sm md:btn-md px-4 md:px-8"
+            data-testid="Sign Up-button"
+            href="/sign-up"
+            id="Sign Up-button"
+          >
+            Sign Up
+          </a>
+        </div>
+      </div>
+      <div
+        class="flex-grow grid lg:grid-cols-2 place-items-center gap-x-32"
+      >
+        <div
+          class="flex flex-row flex-wrap justify-center items-center col-start-1"
+          id="sign container"
+        >
+          <div
+            class="flex flex-col justify-center items-center gap-4 md:gap-8"
+            id="sign content container"
+          >
+            <p
+              class="text-4xl md:text-6xl font-bold text-center whitespace-nowrap"
+              id="sign content header"
+            >
+              Welcome Back!
+            </p>
+            <p
+              class="text-lg text-center"
+              id="sign content text"
+            >
+              Unite to foster an environment where creativity, collaboration, and mutual respect flourish
+            </p>
+            <div
+              class="w-full"
+            >
+              <div
+                class="flex-col justify-start items-start w-full"
+                id="Email-container"
+              >
+                <div
+                  class="text-start text-black text-xl font-normal pb-2"
+                  data-testid="Email header"
+                  id="Email-header"
+                >
+                  Email
+                </div>
+                <input
+                  class="text-black input outline outline-gray-300 text-xl font-normal bg-transparent w-full px-3 py-2.5 rounded-md justify-start items-center inline-flex focus:outline-darkPurple"
+                  data-testid="Email textbox"
+                  id="Email-textbox"
+                  placeholder="Enter your email"
+                  type="email"
+                />
+              </div>
+            </div>
+            <div
+              class="w-full"
+            >
+              <div
+                class="flex-col justify-start items-start w-full"
+                id="Password-container"
+              >
+                <div
+                  class="text-start text-black text-xl font-normal pb-2"
+                  data-testid="Password header"
+                  id="Password-header"
+                >
+                  Password
+                </div>
+                <input
+                  class="text-black input outline outline-gray-300 text-xl font-normal bg-transparent w-full px-3 py-2.5 rounded-md justify-start items-center inline-flex focus:outline-darkPurple"
+                  data-testid="Password textbox"
+                  id="Password-textbox"
+                  placeholder="Enter your password"
+                  type="password"
+                />
+              </div>
+            </div>
+            <div
+              class="w-full flex flex-row justify-end items-center"
+              id="sign remember forgot container"
+            >
+              <a
+                class="text-lg hover:text-primary transition-all ease-in duration-250"
+                href="/ConfirmEmail"
+                id="sign forgot text"
+              >
+                Forgot password?
+              </a>
+            </div>
+            <button
+              class="btn btn-md rounded-full capitalize font-normal text-white text-sm md:text-base btn-secondary w-full"
+              data-testid="Sign in-button"
+              id="Sign in-button"
+            >
+              Sign in
+            </button>
+            <span
+              class="flex align-middle justify-center"
+              id="sign signup container"
+            >
+              <a
+                class="text-lg justify-self-end"
+                href="/sign-up"
+                id="signSwap text"
+              >
+                Don't have an account?
+              </a>
+              <a
+                class="text-lg font-bold pl-2"
+                href="/sign-up"
+                id="signSwap button"
+              >
+                Sign Up
+              </a>
+            </span>
+          </div>
+        </div>
+        <div
+          class="h-full col-start-2 hidden lg:flex"
+        >
+          <img
+            alt="Sign Up Illustration"
+            class="object-contain"
+            src="sign_in_up.svg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

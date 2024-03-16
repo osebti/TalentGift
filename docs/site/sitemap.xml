@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://ualberta-cmput401.github.io/f23project-talent-gift/</loc>
+         <lastmod>2023-11-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ualberta-cmput401.github.io/f23project-talent-gift/meeting-minutes/</loc>
+         <lastmod>2023-11-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ualberta-cmput401.github.io/f23project-talent-gift/project-management/</loc>
+         <lastmod>2023-11-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ualberta-cmput401.github.io/f23project-talent-gift/software-design/</loc>
+         <lastmod>2023-11-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ualberta-cmput401.github.io/f23project-talent-gift/teamwork/</loc>
+         <lastmod>2023-11-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>

@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --white: #f1f1f1;
+  --black: #1d1d1d;
+  --pakistan-green: #5d8059;
+  --hunter-green: #4c6949;
+  --finn-purple: #774077;
+  --sky-magenta: #b766a3;
+
+  background-color: var(--white);
+  box-sizing: border-box;
+  margin: 0;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}

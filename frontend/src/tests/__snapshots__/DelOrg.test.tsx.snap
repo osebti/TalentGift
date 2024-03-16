@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering the Delete Organization Page renders correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="w-full h-full flex justify-center items-center px-4"
+      >
+        <div
+          class="flex flex-col w-2/3 justify-center items-center gap-2"
+        >
+          <div
+            class="font-semibold text-2xl flex flex-col justify-center items-center my-6 md:my-8 lg:my-10"
+            id="content-header"
+          >
+            Are You Sure? This Action Cannot Be Undone
+            <div
+              class="font-semibold text-2xl md:text-3xl lg:text-4xl text-black"
+              id="content-title"
+            />
+          </div>
+          <button
+            class="btn btn-md capitalize font-normal text-white text-sm md:text-base btn-secondary rounded-2xl mx-4 md:mx-8"
+            data-testid="del-org-button"
+            id="del-org-button"
+          >
+            Delete Organization
+          </button>
+          <dialog
+            class="modal"
+            data-testid="delete-org-modal"
+            id="delete-org-modal"
+          >
+            <div
+              class="modal-box border-2 border-primary"
+            >
+              <h3
+                class="font-bold text-lg"
+                id="modal-header"
+              >
+                Delete Organization
+              </h3>
+              <p
+                class="py-4"
+                id="modal-message"
+              >
+                Are you sure you want to delete the organization with oid null?
+              </p>
+              <div
+                class="modal-action"
+              >
+                <form
+                  method="dialog"
+                >
+                  <div
+                    class="flex gap-3"
+                    id="modal-button-container"
+                  >
+                    <button
+                      class="btn btn-md capitalize font-normal text-white text-sm md:text-base btn btn-outline btn-accent rounded-xl"
+                      data-testid="Cancel-button"
+                      id="Cancel-button"
+                    >
+                      Cancel
+                    </button>
+                    <button
+                      class="btn btn-md capitalize font-normal text-white text-sm md:text-base btn btn-outline btn-secondary rounded-xl"
+                      data-testid="Confirm-button"
+                      id="Confirm-button"
+                    >
+                      Confirm
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </dialog>
+          <a
+            class="mx-4 md:mx-8 lg:mx-0"
+            href="/dashboard"
+          >
+            <div
+              class="flex justify-center items-center"
+            >
+              <div
+                class="text-secondary hover:text-black transition ease-in-out text-center"
+              >
+                I change my mind, back to Dashboard
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="w-full h-full flex justify-center items-center px-4"
+    >
+      <div
+        class="flex flex-col w-2/3 justify-center items-center gap-2"
+      >
+        <div
+          class="font-semibold text-2xl flex flex-col justify-center items-center my-6 md:my-8 lg:my-10"
+          id="content-header"
+        >
+          Are You Sure? This Action Cannot Be Undone
+          <div
+            class="font-semibold text-2xl md:text-3xl lg:text-4xl text-black"
+            id="content-title"
+          />
+        </div>
+        <button
+          class="btn btn-md capitalize font-normal text-white text-sm md:text-base btn-secondary rounded-2xl mx-4 md:mx-8"
+          data-testid="del-org-button"
+          id="del-org-button"
+        >
+          Delete Organization
+        </button>
+        <dialog
+          class="modal"
+          data-testid="delete-org-modal"
+          id="delete-org-modal"
+        >
+          <div
+            class="modal-box border-2 border-primary"
+          >
+            <h3
+              class="font-bold text-lg"
+              id="modal-header"
+            >
+              Delete Organization
+            </h3>
+            <p
+              class="py-4"
+              id="modal-message"
+            >
+              Are you sure you want to delete the organization with oid null?
+            </p>
+            <div
+              class="modal-action"
+            >
+              <form
+                method="dialog"
+              >
+                <div
+                  class="flex gap-3"
+                  id="modal-button-container"
+                >
+                  <button
+                    class="btn btn-md capitalize font-normal text-white text-sm md:text-base btn btn-outline btn-accent rounded-xl"
+                    data-testid="Cancel-button"
+                    id="Cancel-button"
+                  >
+                    Cancel
+                  </button>
+                  <button
+                    class="btn btn-md capitalize font-normal text-white text-sm md:text-base btn btn-outline btn-secondary rounded-xl"
+                    data-testid="Confirm-button"
+                    id="Confirm-button"
+                  >
+                    Confirm
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </dialog>
+        <a
+          class="mx-4 md:mx-8 lg:mx-0"
+          href="/dashboard"
+        >
+          <div
+            class="flex justify-center items-center"
+          >
+            <div
+              class="text-secondary hover:text-black transition ease-in-out text-center"
+            >
+              I change my mind, back to Dashboard
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

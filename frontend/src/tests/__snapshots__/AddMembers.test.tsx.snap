@@ -1,0 +1,432 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering the AddMembers Page renders correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col gap-6 w-full h-full px-4 md:px-8"
+        id="add-page-container"
+      >
+        <div
+          class="w-full text-2xl md:text-3xl lg:text-4xl text-black font-normal"
+          data-testid="add-members-page-title"
+          id="add-members-page-title"
+        >
+          Add Members
+        </div>
+        <div
+          class="flex flex-col w-full"
+        >
+          <p
+            class="flex w-full"
+          >
+            Please ensure you follow the instructions below to successfully upload your Excel file!
+          </p>
+          <ul
+            class="steps steps-vertical my-4 text-lg"
+          >
+            <li
+              class="step step-primary"
+            >
+              <div
+                class="flex flex-col w-full"
+              >
+                Download the following Excel template:
+                <a
+                  class="text-primary font-bold underline"
+                  download=""
+                  href="/files/Talent_Gift_Members_Template.xlsx"
+                  target="_blank"
+                >
+                  Download
+                </a>
+              </div>
+            </li>
+            <li
+              class="step step-primary"
+            >
+              <div
+                class="flex flex-col w-full"
+              >
+                Enter the first/last name, email, and position at company for each employee.
+              </div>
+            </li>
+            <li
+              class="step step-primary"
+            >
+              <div
+                class="flex flex-col w-full"
+              >
+                There are 3 questions about the employee's position at the company (in columns E-G). Rate each question on a scale of 1-5:
+              </div>
+            </li>
+          </ul>
+          <ul
+            class="steps mb-6"
+          >
+            <li
+              class="step step-accent"
+            >
+              basic position
+            </li>
+            <li
+              class="step step-accent"
+            >
+              less critical position
+            </li>
+            <li
+              class="step step-accent"
+            >
+              somewhat critical position
+            </li>
+            <li
+              class="step step-accent"
+            >
+              critical position
+            </li>
+            <li
+              class="step step-accent"
+            >
+              highly critical position
+            </li>
+          </ul>
+          <p>
+            A row in your table might look like the following: 
+          </p>
+          <div
+            class="max-w-xs md:max-w-lg lg:max-w-5xl overflow-auto"
+          >
+            <table
+              class="table"
+            >
+              <thead>
+                <tr>
+                  <th>
+                    First Name
+                  </th>
+                  <th>
+                    Last Name
+                  </th>
+                  <th>
+                    Email
+                  </th>
+                  <th>
+                    Position
+                  </th>
+                  <th>
+                    This position has a critical impact in operational continuity and corporate strategic development
+                  </th>
+                  <th>
+                    Highly specialized position requiring expertise in rare tools or processes; demands intensive internal training due to limited availability and high skill requirements in the market.
+                  </th>
+                  <th>
+                    Decisions impact company revenue, resource allocation, and area budgets; influence functional processes and business structure.
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    John
+                  </td>
+                  <td>
+                    Smith
+                  </td>
+                  <td>
+                    john.smith@gmail.com
+                  </td>
+                  <td>
+                    HR Leader
+                  </td>
+                  <td>
+                    4
+                  </td>
+                  <td>
+                    3
+                  </td>
+                  <td>
+                    4
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div
+          class="grid grid-cols-2 gap-6"
+          id="add-page-content"
+        >
+          <form
+            action="post"
+            class="flex flex-col gap-4 mt-4 col-span-2 md:col-span-1 lg:col-span-1"
+            id="add-members-form"
+          >
+            <label
+              class="sm:text-sm md:text-md lg:text-lg"
+              for="fileSelect"
+            >
+              Upload File
+            </label>
+            <input
+              accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+              class="file-input file-input-bordered file-input-primary w-full max-w-md"
+              id="add-members-file-select"
+              required=""
+              type="file"
+            />
+            <p>
+              Accepted file types: .xlsx
+            </p>
+            <button
+              class="btn btn-md rounded-full capitalize font-normal text-white text-sm md:text-base btn-secondary"
+              data-testid="add-members-submit-button"
+              id="add-members-submit-button"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col gap-6 w-full h-full px-4 md:px-8"
+      id="add-page-container"
+    >
+      <div
+        class="w-full text-2xl md:text-3xl lg:text-4xl text-black font-normal"
+        data-testid="add-members-page-title"
+        id="add-members-page-title"
+      >
+        Add Members
+      </div>
+      <div
+        class="flex flex-col w-full"
+      >
+        <p
+          class="flex w-full"
+        >
+          Please ensure you follow the instructions below to successfully upload your Excel file!
+        </p>
+        <ul
+          class="steps steps-vertical my-4 text-lg"
+        >
+          <li
+            class="step step-primary"
+          >
+            <div
+              class="flex flex-col w-full"
+            >
+              Download the following Excel template:
+              <a
+                class="text-primary font-bold underline"
+                download=""
+                href="/files/Talent_Gift_Members_Template.xlsx"
+                target="_blank"
+              >
+                Download
+              </a>
+            </div>
+          </li>
+          <li
+            class="step step-primary"
+          >
+            <div
+              class="flex flex-col w-full"
+            >
+              Enter the first/last name, email, and position at company for each employee.
+            </div>
+          </li>
+          <li
+            class="step step-primary"
+          >
+            <div
+              class="flex flex-col w-full"
+            >
+              There are 3 questions about the employee's position at the company (in columns E-G). Rate each question on a scale of 1-5:
+            </div>
+          </li>
+        </ul>
+        <ul
+          class="steps mb-6"
+        >
+          <li
+            class="step step-accent"
+          >
+            basic position
+          </li>
+          <li
+            class="step step-accent"
+          >
+            less critical position
+          </li>
+          <li
+            class="step step-accent"
+          >
+            somewhat critical position
+          </li>
+          <li
+            class="step step-accent"
+          >
+            critical position
+          </li>
+          <li
+            class="step step-accent"
+          >
+            highly critical position
+          </li>
+        </ul>
+        <p>
+          A row in your table might look like the following: 
+        </p>
+        <div
+          class="max-w-xs md:max-w-lg lg:max-w-5xl overflow-auto"
+        >
+          <table
+            class="table"
+          >
+            <thead>
+              <tr>
+                <th>
+                  First Name
+                </th>
+                <th>
+                  Last Name
+                </th>
+                <th>
+                  Email
+                </th>
+                <th>
+                  Position
+                </th>
+                <th>
+                  This position has a critical impact in operational continuity and corporate strategic development
+                </th>
+                <th>
+                  Highly specialized position requiring expertise in rare tools or processes; demands intensive internal training due to limited availability and high skill requirements in the market.
+                </th>
+                <th>
+                  Decisions impact company revenue, resource allocation, and area budgets; influence functional processes and business structure.
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  John
+                </td>
+                <td>
+                  Smith
+                </td>
+                <td>
+                  john.smith@gmail.com
+                </td>
+                <td>
+                  HR Leader
+                </td>
+                <td>
+                  4
+                </td>
+                <td>
+                  3
+                </td>
+                <td>
+                  4
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-2 gap-6"
+        id="add-page-content"
+      >
+        <form
+          action="post"
+          class="flex flex-col gap-4 mt-4 col-span-2 md:col-span-1 lg:col-span-1"
+          id="add-members-form"
+        >
+          <label
+            class="sm:text-sm md:text-md lg:text-lg"
+            for="fileSelect"
+          >
+            Upload File
+          </label>
+          <input
+            accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+            class="file-input file-input-bordered file-input-primary w-full max-w-md"
+            id="add-members-file-select"
+            required=""
+            type="file"
+          />
+          <p>
+            Accepted file types: .xlsx
+          </p>
+          <button
+            class="btn btn-md rounded-full capitalize font-normal text-white text-sm md:text-base btn-secondary"
+            data-testid="add-members-submit-button"
+            id="add-members-submit-button"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

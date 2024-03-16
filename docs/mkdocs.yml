@@ -1,0 +1,9 @@
+site_name: Talent Gift
+site_url: https://ualberta-cmput401.github.io/f23project-talent-gift/
+theme: readthedocs
+nav:
+  - Project Requirements: index.md
+  - Software Design: software-design.md
+  - Project Management: project-management.md
+  - Teamwork: teamwork.md
+  - Meeting Minutes: meeting-minutes.md
